@@ -23,10 +23,12 @@ The backend controller is for Laravel 4.
 
 Simply loop the polls and trigger on their type, put results as seen
 
-- html result
+**html result**
+
 	$_results[$_poll->id]=array('type'=>'html', 'args'=>'my html');
 
-- function result
+**function result**
+
 	$_results[$_poll->id]=array('type'=>'function', 'func'=>'mycallback', 'args'=>array('test1','test2'));
 
 
