@@ -15,7 +15,10 @@ Usage
 - element to update (shorthand)
 - backend method is to refrence what to output in the backend
 - cycle is how often to run it, 1,2,3,x
-	fnAddPoll('div id', 'backend_method', 'cycle');
+
+
+
+		fnAddPoll('#divid', 'backend_method', 'cycle');
 
 
 **Controller**
