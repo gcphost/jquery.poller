@@ -1,0 +1,17 @@
+<script src="{{{ asset('assets/js/jquery.poller.js') }}}"></script>
+<script type="text/javascript">
+
+	fnAddPoll('li4', 'users_online', '1');
+	fnAddPoll('logs', 'check_logs', '1');
+	fnRunPoll();
+
+	/* call back from results */
+	function mycallback(id, args){
+		$.each(args, function(i,value){
+			console.log(value);
+		});
+	}
+
+</script>
+
+<div id="li4">Will update with html from the controller...</div>
