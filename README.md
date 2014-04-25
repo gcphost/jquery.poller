@@ -35,7 +35,4 @@ Simply loop the polls and trigger on their type, put results as seen
 	$_results[$_poll->id]=array('type'=>'function', 'func'=>'mycallback', 'args'=>array('test1','test2'));
 
 
-Roadmap
--------------
 
-- I'd like it to be a real jquery plugin
