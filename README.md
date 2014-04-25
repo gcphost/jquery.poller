@@ -18,7 +18,8 @@ Usage
 
 
 
-		fnAddPoll('#divid', 'backend_method', 'cycle');
+		$.fn.poller('add',{'id':'element', 'type':'method', 'ratio': 'ratio'});
+
 
 
 **Controller**
