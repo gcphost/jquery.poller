@@ -1,9 +1,11 @@
 <script src="{{{ asset('assets/js/jquery.poller.js') }}}"></script>
 <script type="text/javascript">
 
-	fnAddPoll('li4', 'users_online', '1');
-	fnAddPoll('logs', 'check_logs', '1');
-	fnRunPoll();
+	
+	$.fn.poller({'url':'polling.php'});
+	$.fn.poller('add',{'id':'logs', 'type':'check_logs', 'ratio': '5'});
+	$.fn.poller('run');
+
 
 	/* call back from results */
 	function mycallback(id, args){
