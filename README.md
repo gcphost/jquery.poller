@@ -23,14 +23,14 @@ Usage
 		$.fn.poller('add',{'id':'element', 'type':'method', 'ratio': 'ratio'});
 
 
-Defaults
+Options
 -------------
         defaults = {
 			url: - the url to your php script
-			pols:[] - array of pols, like 'add'
-			default_delay: time to wait between calls (ms)
-			default_delay_cap: time when user is set to inactive (seconds)
-			default_max_delay: longest delay between calls you can get (ms)
+			pols:[] - default array of pols, like 'add'
+			default_delay: (8000) time to wait between calls (ms)
+			default_delay_cap: (300) time when user is set to inactive (seconds)
+			default_max_delay: (16000) longest delay between calls you can get (ms)
         };
 
 
