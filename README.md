@@ -88,4 +88,6 @@ Based on 'type' returned by your controller you will either be updating a div wi
 			});
 		}
 
-
+License
+-------------
+MIT so enjoy!
