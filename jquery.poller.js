@@ -1,3 +1,12 @@
+/*
+ *  Project: jquery.poller
+ *  Description: Ajax polling for background tasks with responsive delay
+ *  Author: William Bowman
+ *  License: MIT
+ *  Website: https://github.com/gcphost/jquery.poller
+ */
+
+
 ;(function ( $, window, document, undefined ) {
 
 	var settings='';
@@ -89,7 +98,6 @@
 		window.clearTimeout(settings.poll_timer);
 		this.run();
 	};
-
 
     $.fn.poller = function ( options ) {
         var args = arguments;
