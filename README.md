@@ -16,7 +16,7 @@ Usage
 
 - element to update (#div, .class)
 - method is what will be called in your php
-- cycle is how often to run it, 1,2,3,x
+- ratio is how often to run it, 1,2,3,x
 
 
 
